@@ -34,9 +34,9 @@
 --space-xs: 4px;
 --space-sm: 8px;
 --space-md: 16px;
---space-1g: 24px;
---space-x1: 32px;
---space-2x1: 48px;
+--space-lg: 24px;
+--space-xl: 32px;
+--space-2xl: 48px;
 
 /* 6. Corners */
 --radius-small: 6px;
@@ -62,4 +62,5 @@
 --card-shadow: var(--shadwo-soft);
 
 /* 10. Transitions */
---transition-speed: 180ms ease;} 
+--transition-speed: 180ms ease;}
+ 
