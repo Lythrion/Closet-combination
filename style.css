@@ -1,0 +1,65 @@
+:root {
+/* 1. Brand colours */
+--color-cherry:#511522;
+--color-ivory: #F5EBDD;
+--color-charcoal: #29282C;
+--color-dusty-rose: #C98F98;
+--color-antique-gold: #AD915D;
+
+/* 2. Text and surface colours */
+--color-text: var(--color-charcoal);
+--color-text-muted: #716A68;
+--color-text-on-dark: var(--color-ivory);
+--color-surface: #FFFCF6;
+--color-border: #DED4C7;
+
+/* 3.  Typography */
+--font-display: "Flatory Serif Semi Condensed", Georgia, serif;
+--font-body: Arial, sans-serif;
+
+--text-small: 0.875rem;
+--text-base: 1rem;
+--text-large: 1.25rem;
+
+--heading-small: 1.75rem;
+--heading-medium: 2.5rem;
+--heading-large: 3.5rem;
+
+/* 4. Page layout */
+--page-width: 1200px;
+--content-padding: 24px;
+--section-gap: 48px;
+
+/* 5. Spacing scale */
+--space-xs: 4px;
+--space-sm: 8px;
+--space-md: 16px;
+--space-1g: 24px;
+--space-x1: 32px;
+--space-2x1: 48px;
+
+/* 6. Corners */
+--radius-small: 6px;
+--radius-medium: 12px;
+--radius-large: 20px;
+
+/* 7. Shadows */
+--shadows-soft: 0 4px 12px rgba(41, 40, 44, 0.08);
+
+/* 8. Buttons */
+--button-primary-bg: var(--color-cherry);
+--button-primary-text: var(--color-ivory);
+--button-secondary-bg: transparent;
+--button-secondary-text: var(--color-cherry);
+--button-border: var(--color-cherry);
+--button-padding-y: 12px;
+--button-padding-x: 20px;
+--button-radius: var(--radius-small);
+
+/* 9. Cards */
+--card-padding: 24px;
+--card-radius: var(--radius-medium);
+--card-shadow: var(--shadwo-soft);
+
+/* 10. Transitions */
+--transition-speed: 180ms ease;} 
